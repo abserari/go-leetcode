@@ -1,0 +1,78 @@
+hash: e2012d59b03ca4e3eed54fc782ae214df4fbfaf2584b23cfd3d5168684821f34
+updated: 2018-02-28T11:39:31.540293+08:00
+imports:
+- name: github.com/aead/poly1305
+  version: 6cf43fdfd7a228cf3003ae23d10ddbf65e85997b
+- name: github.com/aead/siphash
+  version: e404fcfc888570cadd1610538e2dbc89f66af814
+- name: github.com/davecgh/go-spew
+  version: 346938d642f2ec3594ed81d874461961cd0faa76
+  subpackages:
+  - spew
+- name: github.com/dchest/siphash
+  version: 4ebf1de738443ea7f45f02dc394c4df1942a126d
+- name: github.com/dgryski/go-topk
+  version: 1257854874211f6acca8169a5ae1210f5fb048e2
+- name: github.com/go-ole/go-ole
+  version: a1ec82a652ebc7e784d7df887cfb31061aeabbcc
+  subpackages:
+  - oleutil
+- name: github.com/google/go-cmp
+  version: 3af367b6b30c263d47e8895973edcca9a49cf029
+  subpackages:
+  - cmp
+  - cmp/internal/diff
+  - cmp/internal/function
+  - cmp/internal/value
+- name: github.com/gopherjs/gopherjs
+  version: 444abdf920945de5d4a977b572bcc6c674d1e4eb
+  subpackages:
+  - js
+- name: github.com/hajimehoshi/go-mp3
+  version: 3c185f92b8dbceefa913b64cae634ba47f452769
+  subpackages:
+  - internal/bits
+  - internal/consts
+  - internal/frame
+  - internal/frameheader
+  - internal/huffman
+  - internal/imdct
+  - internal/maindata
+  - internal/sideinfo
+- name: github.com/hajimehoshi/oto
+  version: e2f7012830c68205e59a6663c6e2398f6f778629
+  subpackages:
+  - internal/jni
+- name: github.com/minio/blake2b-simd
+  version: 3f5f724cb5b182a5c278d6d3d55b40e7f8c2efb4
+- name: github.com/minio/highwayhash
+  version: 1ea1b5fce73b1d7abbd822a194b51f3736b1f23b
+- name: github.com/petar/GoLLRB
+  version: 53be0d36a84c2a886ca057d34b6aa4468df9ccb4
+- name: github.com/robfig/cron
+  version: b024fc5ea0e34bc3f83d9941c8d60b0622bfaca4
+- name: github.com/satori/go.uuid
+  version: f58768cc1a7a7e77a3bd49e98cdd21419399b6a3
+- name: github.com/shirou/gopsutil
+  version: c432be29ccce470088d07eea25b3ea7e68a8afbb
+  subpackages:
+  - internal/common
+  - mem
+- name: github.com/StackExchange/wmi
+  version: 5d049714c4a64225c3c79a7cf7d02f7fb5b96338
+- name: go.uber.org/atomic
+  version: 8474b86a5a6f79c443ce4b2992817ff32cf208b8
+- name: golang.org/x/crypto
+  version: dd85ac7e6a88fc6ca420478e934de5f1a42dd3c6
+  subpackages:
+  - bcrypt
+  - blake2b
+  - blowfish
+- name: golang.org/x/sys
+  version: abf9c25f54453410d0c6668e519582a9e1115027
+  subpackages:
+  - unix
+  - windows
+testImports:
+- name: github.com/minio/sha256-simd
+  version: ad98a36ba0da87206e3378c556abbfeaeaa98668

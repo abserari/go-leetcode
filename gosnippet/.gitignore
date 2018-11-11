@@ -1,0 +1,7 @@
+*.log
+.idea
+*.rdb
+*.pprof
+*.memprof
+_book
+node_modules

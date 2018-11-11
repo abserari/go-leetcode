@@ -1,0 +1,23 @@
+package: github.com/TechCatsLab/gosnippet
+import:
+- package: github.com/robfig/cron
+  version: v1
+- package: github.com/davecgh/go-spew
+  version: v1.1.0
+- package: golang.org/x/crypto
+- package: github.com/hajimehoshi/oto
+- package: github.com/hajimehoshi/go-mp3
+- package: go.uber.org/atomic
+  version: v1.3.1
+- package: github.com/google/go-cmp
+  version: v0.2.0
+- package: github.com/satori/go.uuid
+  version: v1.2.0
+- package: github.com/shirou/gopsutil
+  version: v2.18.01
+- package: golang.org/x/sys
+- package: github.com/dgryski/go-topk
+- package: github.com/petar/GoLLRB
+- package: github.com/minio/highwayhash
+- package: github.com/dchest/siphash
+  version: v1.1.0
