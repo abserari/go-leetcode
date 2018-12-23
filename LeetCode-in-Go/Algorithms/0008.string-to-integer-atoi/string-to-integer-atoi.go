@@ -53,7 +53,11 @@ func convert(sign int, s string) int {
 		// 为了防止特别长的数字，甚至超过float64的范围，所以，每一步都检查是否溢出
 		res, yes = isOverflow(res + (int(s[i])-48)*base)
 		if yes {
-			return res
+			if res > 0 {
+				return math.MaxInt32
+			} else {
+				return -math.MaxInt32 - 1
+			}
 		}
 		base *= 10
 	}
