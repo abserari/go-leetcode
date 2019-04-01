@@ -1,21 +1,16 @@
 package main
 
 import (
+	"container/list"
 	"fmt"
-	"time"
 )
 
 func main() {
-	i := 0
-	go func() {
-		for true {
-			i++
-		}
-	}()
+	list := list.New()
+	list.PushBack(1)
+	list.PushBack(2)
 
-	for true {
-		//隔一秒打印i
-		time.Sleep(1000000000)
-		fmt.Println(i)
-	}
+	fmt.Printf("len: %v\n", list.Len())
+	fmt.Printf("first: %#v\n", list.Front())
+	fmt.Printf("first: %#v\n", list.Front().Next())
 }

@@ -41,11 +41,11 @@ func main() {
 	u := user{"tang"}
 	//Printf 格式化输出
 	fmt.Printf("% + v\n", u)     //格式化输出结构
-	fmt.Printf("%#v\n", u)       //输出值得Go语言表示方法
-	fmt.Printf("%T\n", u)        //输出值得类型的Go语言表示
-	fmt.Printf("%t\n", true)     //输出值得true或false
+	fmt.Printf("%#v\n", u)       //输出值的 Go 语言表示方法
+	fmt.Printf("%T\n", u)        //输出值的类型的 Go 语言表示
+	fmt.Printf("%t\n", true)     //输出值的 true 或 false
 	fmt.Printf("%b\n", 1024)     //二进制表示
-	fmt.Printf("%c\n", 11111111) //数值对应的Unicode编码字符
+	fmt.Printf("%c\n", 11111111) //数值对应的 Unicode 编码字符
 	fmt.Printf("%d\n", 10)       //十进制表示
 	fmt.Printf("%o\n", 8)        //八进制表示
 	fmt.Printf("%q\n", 22)       //转化为十六进制并附上单引号
