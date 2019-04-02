@@ -1,16 +1,10 @@
 package main
 
 import (
-	"container/list"
-	"fmt"
+	socketio "github.com/googollee/go-socket.io"
 )
 
 func main() {
-	list := list.New()
-	list.PushBack(1)
-	list.PushBack(2)
+	server, err := socketio.NewServer(nil)
 
-	fmt.Printf("len: %v\n", list.Len())
-	fmt.Printf("first: %#v\n", list.Front())
-	fmt.Printf("first: %#v\n", list.Front().Next())
 }
