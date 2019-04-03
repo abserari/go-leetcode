@@ -1,10 +1,18 @@
 package main
 
-import (
-	socketio "github.com/googollee/go-socket.io"
-)
+func sum(nums ...int){
+	fmt.Print(nums, " ")
+	total :=  0 
+	for _ , num := range nums{
+		total += num
+	}
+	fmt.Println(total)
+}
 
-func main() {
-	server, err := socketio.NewServer(nil)
+func main(){
+	sum(1,2)
+	sum(1,2,3)
 
+	nums := []int{1,2,3,4}
+	sum(nums...)
 }
